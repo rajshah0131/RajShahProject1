@@ -1,0 +1,6 @@
+Diagrams
+1. Diagram that will not include the ELK server
+  A. the first Diagram that was created will show the Web-1 and Web-2 servers along with the jump box
+
+2. Diagram that will include ELK server
+  A. the second Diagram that was created had a new box that shows the ELK server inside the resource group
