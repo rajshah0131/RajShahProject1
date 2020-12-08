@@ -29,12 +29,11 @@ Topology
  - Metricbeat is a tool that allows one to collect metrics from the OS and form services that can run on a server
  
 - The configuration details of each machine are listed below
-| Name     	| Funtion 	| IP Address 	| Operating System 	|
-|----------	|---------	|------------	|------------------	|
-| Jump Box 	| Gateway 	| 10.0.0.4   	| Linux            	|
-| Web-1    	| DVWA    	| 10.0.0.9   	| Linux            	|
-| Web-2    	| DVWA    	| 10.0.0.10  	| Linux            	|
-| RedElk   	| ELK     	| 10.1.0.4   	| Linux            	|
+| Name      | Function | IP Address  | Operating System  |
+| Jump Box  | Gateway  | 10.0.0.4    | Linux             |
+| Web-1     | DVWA     | 10.0.0.9    | Linux             |
+| Web-2     | DVWA     | 10.0.0.10   | Linux             |
+| RedElk    | Sybr     | 10.1.0.4    | Linux             |
 
 Access Policies
 
@@ -48,12 +47,11 @@ Access Policies
  - This machine is my physical machines public IP address: 98.222.136.51
  
 - A summary of the access policies in place can be found in the table below
-| Name     	| Public Accessible 	| Allowed IP Addresses 	|
-|----------	|-------------------	|----------------------	|
-| Jump Box 	| Yes               	| 98.222.136.51        	|
-| Web-1    	| No                	| 52.152.128.132       	|
-| Web-2    	| No                	| 52.152.128.132       	|
-| RedElk   	| Yes               	| 98.222.136.51        	|
+| Name      | Public Accessible  | Allowed IP Addresses  |
+| Jump Box  | Yes                | 98.222.136.51         |
+| Web-1     | No                 | 52.152.128.132        |
+| Web-2     | No                 | 52.152.128.132        |
+| RedElk    | Yes                | 98.222.136.51         |
 
 Elk Configuration
 
