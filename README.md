@@ -95,8 +95,8 @@ These Beats allow us to collect the following information from each machine:
 Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
--SSH into the control node and follow the steps below:
- - Run: curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
+-SSH into the control node and follow the steps below: filebeat
+ - Run: curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat 
  
  - Update the filebeat-config.yml to include your 
 - output.elasticsearch:
@@ -106,7 +106,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - setup.kibana:
   - "10.1.0.4:5601"
  - Run the playbook, and navigate to (ELK IP):5601/app/kibana to see if kibana is up and running
- TO INSTALL METRIC BEAT DO THE SAME STEPS BUT IN (METRICBEEAT-CONFIG.YML)
+ 
+ -SSH into the control node and follow the steps below: metricbeat
+  - Run: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.10.0-amd64.deb
+
+  - follow the same steps as for filebeats above 
+   - lines 102-108
  
  - THe file in the playbook will be located in /etc/ansible and will be put in a file that you will create called files
   - Then copy it into the hosts file
@@ -114,5 +119,5 @@ In order to use the playbook, you will need to have an Ansible control node alre
   - the proper place to download will be located in the hosts file. You will create groups of IP addresses where you can easily download certain installations in certain places.
 
 Lastly, if you want to make sure that your ELK server is up and running navigate to 
-(elk server ip adress):5601/app/kibana
+(elk server ip address):5601/app/kibana
 - example. 40.77.90.233:5601/app/kibana
