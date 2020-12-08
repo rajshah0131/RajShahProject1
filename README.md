@@ -29,6 +29,7 @@ Topology
  - Metricbeat is a tool that allows one to collect metrics from the OS and form services that can run on a server
  
 - The configuration details of each machine are listed below
+
 | Name      | Function | IP Address  | Operating System  |
 | --------- | -------- | ----------- | ----------------- |
 | Jump Box  | Gateway  | 10.0.0.4    | Linux             |
@@ -48,6 +49,7 @@ Access Policies
  - This machine is my physical machines public IP address: 98.222.136.51
  
 - A summary of the access policies in place can be found in the table below
+
 | Name      | Public Accessible  | Allowed IP Addresses  |
 | --------- | ------------------ | --------------------- |
 | Jump Box  | Yes                | 98.222.136.51         |
