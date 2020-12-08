@@ -46,7 +46,7 @@ This document will show the following:
 
 - Only the Jump Box machine can accept connections from the internet
  - Access to this machine is only allowed from the following IP address:
-  - 98.222.136.51
+   - 98.222.136.51
 
 - Machines with the network can only be accessed by 98.222.136.51
  - This machine is my physical machines public IP address: 98.222.136.51
