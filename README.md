@@ -108,7 +108,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
  - Run the playbook, and navigate to (ELK IP):5601/app/kibana to see if kibana is up and running
  
  -SSH into the control node and follow the steps below: metricbeat
-  - Run: curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.10.0-amd64.deb
+  - Run: curl https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.10.0-amd64.deb
 
   - follow the same steps as for filebeats above 
    - lines 102-108
