@@ -1,4 +1,4 @@
-# RajShahProject1
+### RajShahProject1
 Linux, Scripts, diagrams for Project 1
 
 The files in this repository were used to configure the network depicted below
@@ -20,7 +20,7 @@ This document will show the following:
  - Machines Being Monitored
 - How to use the Ansible Build
 
-Topology
+### Topology
 - The main purpose of this network is to expose a load-balanded and monitored instance of DVWA, which stands for D**n Vulnerable Web Application
 
 - Load balancing ensures that the application will be highly efficient, in addition to restricting access to the network. 
@@ -40,7 +40,7 @@ Topology
 | Web-2     | DVWA     | 10.0.0.10   | Linux             |
 | RedElk    | Sybr     | 10.1.0.4    | Linux             |
 
-Access Policies
+### Access Policies
 
 - The Machines on the internal network are not exposed to the public Internet.
 
@@ -60,7 +60,7 @@ Access Policies
 | Web-2     | No                 | 52.152.128.132        |
 | RedElk    | Yes                | 98.222.136.51         |
 
-Elk Configuration
+### Elk Configuration
 
 - Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible is a free open-source tool that is extremely powerful because it can model highly complex IT workflow. It allows the user to not have to spend time on unnecessary cleaning and can focus on business
 
@@ -73,7 +73,7 @@ Elk Configuration
  
  ![screenshot of working ELK server] (https://drive.google.com/file/d/1H5bUZQtW93crLsF40gQbbGKE2bnC8ysh/view?usp=sharing "ELK Server")
  
- Target Machines and Beats
+ ### Target Machines and Beats
 
 - This ELK server is ocnfigured to monitor the following machines
 
@@ -96,7 +96,7 @@ Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 -SSH into the control node and follow the steps below:
- ### - Run: curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
+ - Run: curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
  
  - Update the filebeat-config.yml to include your 
 - output.elasticsearch:
