@@ -11,17 +11,17 @@ The files in this repository were used to configure the network depicted below
 
 -these files have been tested and used to generate a live ELK deployment on azure. they can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK file may be used to install only certain pieces of it 
 
- -![Ansible Cfg] (https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/Ansible-Cfg "Ansible Cfg")
+ -![Ansible Cfg](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/Ansible-Cfg "Ansible Cfg")
  
- -![Ansible Hosts] (https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/hosts "Ansible Hosts")
+ -![Ansible Hosts](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/hosts "Ansible Hosts")
  
- -![DVWA] (https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/DVWA/install-DVWA.yml "DVWA")
+ -![DVWA](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/DVWA/install-DVWA.yml "DVWA")
  
- -![ELK] (https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/ELK/install-ELK.yml "ELK")
+ -![ELK](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/ELK/install-ELK.yml "ELK")
  
- -![Filebeat] (https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Filebeat/filebeat-playbook.yml "filebeat")
+ -![Filebeat](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Filebeat/filebeat-playbook.yml "filebeat")
  
- -![Metricbeat] (https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "metricbeat")
+ -![Metricbeat](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "metricbeat")
 
 This document will show the following:
 - Description of the topology
