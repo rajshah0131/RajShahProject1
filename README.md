@@ -9,6 +9,9 @@ The files in this repository were used to configure the network depicted below
 2. Network diagram With ELK Server
 ![Network Diagram With ELK Server] (https://github.com/rajshah0131/RajShahProject1/blob/main/Diagram/Diagram%20of%20Complete%20Network.png "Network Diagram With ELK Server")
 
+thse files have been tested and used to generate a live ELK deployment on azure. they can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK file may be used to install only certain pieces of it 
+![Ansible Playbook] (https://github.com/rajshah0131/RajShahProject1/tree/main/Ansible "Ansible Playbooks")
+
 This document will show the following:
 - Description of the topology
 - Access Policies
@@ -59,4 +62,13 @@ Access Policies
 
 Elk Configuration
 
--
+- Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible is a free open-source tool that is extremely powerful because it can model highly complex IT workflow. It allows the user to not have to spend time on unnecessary cleaning and can focus on business
+
+- The playbook implements the following tasks
+ - Install Docker
+ - Install pip3
+ - Install docker python module
+ - Use more memory
+ - download and launch a docker elk container
+ 
+ ![screenshot of working ELK server] (https://drive.google.com/file/d/1H5bUZQtW93crLsF40gQbbGKE2bnC8ysh/view?usp=sharing "ELK Server")
