@@ -10,7 +10,14 @@ The files in this repository were used to configure the network depicted below
 ![Network Diagram With ELK Server](https://github.com/rajshah0131/RajShahProject1/blob/main/Diagram/Diagram%20of%20Complete%20Network.png "Network Diagram With ELK Server")
 
 thse files have been tested and used to generate a live ELK deployment on azure. they can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK file may be used to install only certain pieces of it 
-![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/tree/main/Ansible "Ansible Playbooks")
+
+![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/Ansible-Cfg "Ansible Cfg")
+![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/hosts "Ansible Hosts")
+![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/DVWA/install-DVWA.yml "DVWA")
+![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/ELK/install-ELK.yml "ELK")
+![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Filebeat/filebeat-playbook.yml "filebeat")
+![Ansible Playbook](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Metricbeat/metricbeat-playbook.yml "metricbeat")
+
 
 This document will show the following:
 - Description of the topology
