@@ -29,4 +29,32 @@ Topology
  - Metricbeat is a tool that allows one to collect metrics from the OS and form services that can run on a server
  
 - The configuration details of each machine are listed below
- [Markdown Table Generator] (http://www.tablesgenerator.com/markdown_tables)
+| Name     	| Funtion 	| IP Address 	| Operating System 	|
+|----------	|---------	|------------	|------------------	|
+| Jump Box 	| Gateway 	| 10.0.0.4   	| Linux            	|
+| Web-1    	| DVWA    	| 10.0.0.9   	| Linux            	|
+| Web-2    	| DVWA    	| 10.0.0.10  	| Linux            	|
+| RedElk   	| ELK     	| 10.1.0.4   	| Linux            	|
+
+Access Policies
+
+- The Machines on the internal network are not exposed to the public Internet.
+
+- Only the Jump Box machine can accept connections from the internet
+ - Access to this machine is only allowed from the following IP address:
+  - 98.222.136.51
+
+- Machines with the network can only be accessed by 98.222.136.51
+ - This machine is my physical machines public IP address: 98.222.136.51
+ 
+- A summary of the access policies in place can be found in the table below
+| Name     	| Public Accessible 	| Allowed IP Addresses 	|
+|----------	|-------------------	|----------------------	|
+| Jump Box 	| Yes               	| 98.222.136.51        	|
+| Web-1    	| No                	| 52.152.128.132       	|
+| Web-2    	| No                	| 52.152.128.132       	|
+| RedElk   	| Yes               	| 98.222.136.51        	|
+
+Elk Configuration
+
+-
