@@ -71,7 +71,7 @@ This document will show the following:
  - Use more memory
  - download and launch a docker elk container
  
- ![screenshot of working ELK server] (https://drive.google.com/file/d/1H5bUZQtW93crLsF40gQbbGKE2bnC8ysh/view?usp=sharing "ELK Server")
+ ![screenshot of working ELK server](https://drive.google.com/file/d/1H5bUZQtW93crLsF40gQbbGKE2bnC8ysh/view?usp=sharing "ELK Server")
  
  ### Target Machines and Beats
 
