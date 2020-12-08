@@ -72,3 +72,46 @@ Elk Configuration
  - download and launch a docker elk container
  
  ![screenshot of working ELK server] (https://drive.google.com/file/d/1H5bUZQtW93crLsF40gQbbGKE2bnC8ysh/view?usp=sharing "ELK Server")
+ 
+ Target Machines and Beats
+
+- This ELK server is ocnfigured to monitor the following machines
+
+| Name      | IP Address  |   
+| --------- | ----------- | 
+| Jump Box  | 10.0.0.4    | 
+| Web-1     | 10.0.0.9    | 
+| Web-2     | 10.0.0.10   | 
+| RedElk    | 10.1.0.4    | 
+
+We have installed the following Beats on these machines:
+- Metricbeat
+- Filebeat
+
+These Beats allow us to collect the following information from each machine:
+- Metricbeat - Metricbeat will collect metrics and statistics from the operating system.
+- Filebeat - Filebeat will collected audit logs, deprecation logs, pc logs, server logs, and slow logs to be viewed inside specificied path
+
+Using the Playbook
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+
+-SSH into the control node and follow the steps below:
+ - Run: (curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml)
+ - Update the filebeat-config.yml to include your 
+ output.elasticsearch:
+  - host: "10.1.0.4:9200"
+  - username: "elastic"
+  - password" "changeme"
+ setup.kibana:
+  - "10.1.0.4:5601"
+ - Run the playbook, and navigate to (ELK IP):5601/app/kibana to see if kibana is up and running
+ TO INSTALL METRIC BEAT DO THE SAME STEPS BUT IN (METRICBEEAT-CONFIG.YML)
+ 
+ - THe file in the playbook will be located in /etc/ansible and will be put in a file that you will create called files
+  - Then copy it into the hosts file
+ - The file that you will update will be called Metricbeat-config.yml and Filebeat-config.yml
+  - the proper place to download will be located in the hosts file. You will create groups of IP addresses where you can easily download certain installations in certain places.
+
+Lastly, if you want to make sure that your ELK server is up and running navigate to 
+(elk server ip adress):5601/app/kibana
+- example. 40.77.90.233:5601/app/kibana
