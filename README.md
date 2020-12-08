@@ -9,7 +9,7 @@ The files in this repository were used to configure the network depicted below
 2. Network diagram With ELK Server
 ![Network Diagram With ELK Server](https://github.com/rajshah0131/RajShahProject1/blob/main/Diagram/Diagram%20of%20Complete%20Network.png "Network Diagram With ELK Server")
 
-thse files have been tested and used to generate a live ELK deployment on azure. they can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK file may be used to install only certain pieces of it 
+-these files have been tested and used to generate a live ELK deployment on azure. they can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK file may be used to install only certain pieces of it 
 
  -![Ansible Cfg](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/Ansible-Cfg "Ansible Cfg")
  -![Ansible Hosts](https://github.com/rajshah0131/RajShahProject1/blob/main/Ansible/Ansible-CFg/hosts "Ansible Hosts")
